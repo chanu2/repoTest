@@ -23,3 +23,5 @@ def get_prime_factors(n):
 # 테스트 실행 (예: 56을 소인수분해 -> [2, 2, 2, 7])
 target_num = 56
 print(f"{target_num}의 소인수: {get_prime_factors(target_num)}")
+
+안녕 이거는 테스트 입니다.
