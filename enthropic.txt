@@ -1,0 +1,14 @@
+========================================
+PROJECT: repoTest
+STATUS: Initialized
+DATE: 2026-07-12
+AUTHOR: chanu2
+========================================
+
+[Description]
+- This repository is used for personal test and configuration.
+- Local Git environment has been successfully mapped.
+
+[Todo]
+- [ ] Project setup (IntelliJ IDEA)
+- [ ] Connect remote Git token
