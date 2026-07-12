@@ -1,0 +1,25 @@
+def get_prime_factors(n):
+    factors = []
+    # 2로 나누어 떨어질 때까지 계속 나눕니다.
+    while n % 2 == 0:
+        factors.append(2)
+        n //= 2
+
+    # 3부터 시작해서 홀수로만 나눕니다. (제곱근까지만 확인)
+    factor = 3
+    while factor * factor <= n:
+        while n % factor == 0:
+            factors.append(factor)
+            n //= factor
+        factor += 2
+
+    # 만약 n이 아직 1보다 크다면, 그 자체로 소수입니다.
+    if n > 1:
+        factors.append(n)
+
+    return factors
+
+
+# 테스트 실행 (예: 56을 소인수분해 -> [2, 2, 2, 7])
+target_num = 56
+print(f"{target_num}의 소인수: {get_prime_factors(target_num)}")
