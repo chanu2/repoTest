@@ -26,7 +26,4 @@ print(f"{target_num}의 소인수: {get_prime_factors(target_num)}")
 
 안녕 이거는 테스트 입니다.
 
-
-hi
-
 testtsst
