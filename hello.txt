@@ -30,3 +30,5 @@ print(f"{target_num}의 소인수: {get_prime_factors(target_num)}")
 hi 동료가 수정했다....
 
 testtsst
+
+추가 동료 추가 추가
